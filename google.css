@@ -1,0 +1,103 @@
+:root{
+    --background-color: #fff;
+    --text-color:#333;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+header{
+    padding: 60px;
+    font-size: 35px;
+}
+section{
+    padding-bottom: 20px;
+}
+section #search-box{
+    min-width:280px;
+    min-height: 25px;
+    outline: none;
+    padding: 5px 25px;
+    border: none;
+    background-color: #dddada;
+    border-radius:calc(0.5* 44px);
+} 
+nav{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav button {
+    height: 70px;
+    width: 70px;
+    padding: 0;
+    margin: 5px;
+    font-size: 10px;
+    background-color: var(--background-color);
+    padding-top: 55px;
+    border: none;
+}
+.Facebook{
+    background: url(/image/download.png) no-repeat;
+    background-color: #dddada; 
+    background-position: 8px 8px;
+    height: 40px;
+    width: 40px; 
+    position: fixed;
+    margin: -48px  2px;
+    border-radius: 50%;
+}
+.Youtube{
+    background: url(/image/download-youtube.png) no-repeat;
+    background-color: #dddada; 
+    background-position: 8px 8px;
+    height: 40px;
+    width: 40px; 
+    position: fixed;
+    margin: -48px  2px;
+    border-radius: 50%;
+}
+.Scrimba{
+    background: url(/image/download\ scrimba.png) no-repeat;
+    background-color: #dddada; 
+    background-position: 8px 8px;
+    height: 40px;
+    width: 40px; 
+    position: fixed;
+    margin: -48px  2px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
