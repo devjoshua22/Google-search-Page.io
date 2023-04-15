@@ -10,11 +10,13 @@
     flex-wrap:wrap;
 }
 header{
-    margin: 60px;
-    padding: 60px;
+    margin: 30px;
+    padding: 10px;
     min-width: 150px;
-    background: url(image/googleHeader.png) no-repeat;
-    background-position: center;
+    font-size: 35px;
+    font-weight: 500;
+    /* background: url(image/googleHeader.png) no-repeat;
+    background-position: center; */
 }
 section{
     padding-bottom: 20px;
