@@ -13,14 +13,14 @@ header{
     margin: 60px;
     padding: 60px;
     min-width: 150px;
-    background: url(/image/google\ header.png) no-repeat;
+    background: url(image/googleHeader.png) no-repeat;
     background-position: center;
 }
 section{
     padding-bottom: 20px;
 }
 #microphone{
-    background: url(/image/google-voice-google-search-google-logo-png.png) no-repeat;
+    background: url(image/google-voice-google-search-google-logo-png.png) no-repeat;
     background-size: contain;
     height: 24px;
     width: 20px;
@@ -29,7 +29,7 @@ section{
     
 }
 #Search-icon{
-    background: url(/image/imgbin_simple-grey-search-icon-png.png) no-repeat;
+    background: url(image/imgbin_simple-grey-search-icon-png.png) no-repeat;
     background-size: contain;
     height: 20px;
     width: 15px;
@@ -63,7 +63,7 @@ nav button {
     border: none;
 }
 .Facebook{
-    background: url(/image/download.png) no-repeat;
+    background: url(image/download.png) no-repeat;
     background-color: #dddada; 
     background-position: 8px 8px;
     height: 40px;
@@ -73,7 +73,7 @@ nav button {
     border-radius: 50%;
 }
 .Youtube{
-    background: url(/image/download-youtube.png) no-repeat;
+    background: url(image/download-youtube.png) no-repeat;
     background-color: #dddada; 
     background-position: 8px 8px;
     height: 40px;
@@ -83,7 +83,7 @@ nav button {
     border-radius: 50%;
 }
 .Scrimba{
-    background: url(/image/download\ scrimba.png) no-repeat;
+    background: url(image/download\ scrimba.png) no-repeat;
     background-color: #dddada; 
     background-position: 8px 8px;
     height: 40px;
@@ -93,7 +93,7 @@ nav button {
     border-radius: 50%;
 }
 .G-mail{
-    background: url(/image/gmail.png) no-repeat;
+    background: url(image/gmail.png) no-repeat;
     background-size: contain;
     background-color: #dddada; 
     height: 40px;
@@ -103,7 +103,7 @@ nav button {
     border-radius: 50%;
 }
 .Github{
-    background: url(/image/github.png) no-repeat;
+    background: url(image/github.png) no-repeat;
     background-size: contain;
     background-color: #dddada; 
     height: 40px;
@@ -113,7 +113,7 @@ nav button {
     border-radius: 50%;
 }
 .Twitter{
-    background: url(/image/twitter.png) no-repeat;
+    background: url(image/twitter.png) no-repeat;
     background-color: #dddada; 
     background-size: contain;
     height: 40px;
@@ -123,7 +123,7 @@ nav button {
     border-radius: 50%;
 }
 .Livescores{
-    background: url(/image/live.png) no-repeat;
+    background: url(image/live.png) no-repeat;
     background-color: #dddada; 
     background-size: contain;
     height: 40px;
@@ -170,7 +170,7 @@ button:hover{
    font-weight: 600;
 }
 .customize{
-    background: url(/image/edit.png);
+    background: url(image/edit.png);
     height: 18px;
     width: 18px;
     background-size: contain;
