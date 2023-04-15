@@ -2,7 +2,7 @@
     --background-color: #fff;
     --text-color:#333;
 }
-body{
+#content{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,17 +10,38 @@ body{
     flex-wrap:wrap;
 }
 header{
+    margin: 60px;
     padding: 60px;
-    font-size: 35px;
+    min-width: 150px;
+    background: url(/image/google\ header.png) no-repeat;
+    background-position: center;
 }
 section{
     padding-bottom: 20px;
+}
+#microphone{
+    background: url(/image/google-voice-google-search-google-logo-png.png) no-repeat;
+    background-size: contain;
+    height: 24px;
+    width: 20px;
+    position: absolute;
+    margin: 5px -25px;
+    
+}
+#Search-icon{
+    background: url(/image/imgbin_simple-grey-search-icon-png.png) no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 15px;
+    position: absolute;
+    margin: 8px -333px;
+    
 }
 section #search-box{
     min-width:280px;
     min-height: 25px;
     outline: none;
-    padding: 5px 25px;
+    padding: 5px 30px;
     border: none;
     background-color: #dddada;
     border-radius:calc(0.5* 44px);
@@ -47,7 +68,7 @@ nav button {
     background-position: 8px 8px;
     height: 40px;
     width: 40px; 
-    position: fixed;
+    position: absolute;
     margin: -48px  2px;
     border-radius: 50%;
 }
@@ -57,7 +78,7 @@ nav button {
     background-position: 8px 8px;
     height: 40px;
     width: 40px; 
-    position: fixed;
+    position: absolute;
     margin: -48px  2px;
     border-radius: 50%;
 }
@@ -67,15 +88,96 @@ nav button {
     background-position: 8px 8px;
     height: 40px;
     width: 40px; 
-    position: fixed;
+    position: absolute;
     margin: -48px  2px;
     border-radius: 50%;
 }
+.G-mail{
+    background: url(/image/gmail.png) no-repeat;
+    background-size: contain;
+    background-color: #dddada; 
+    height: 40px;
+    width: 40px; 
+    position: absolute;
+    margin: -48px  2px;
+    border-radius: 50%;
+}
+.Github{
+    background: url(/image/github.png) no-repeat;
+    background-size: contain;
+    background-color: #dddada; 
+    height: 40px;
+    width: 40px; 
+    position: absolute;
+    margin: -48px  0px;
+    border-radius: 50%;
+}
+.Twitter{
+    background: url(/image/twitter.png) no-repeat;
+    background-color: #dddada; 
+    background-size: contain;
+    height: 40px;
+    width: 40px; 
+    position: absolute;
+    margin: -48px  -3px;
+    border-radius: 50%;
+}
+.Livescores{
+    background: url(/image/live.png) no-repeat;
+    background-color: #dddada; 
+    background-size: contain;
+    height: 40px;
+    width: 40px; 
+    position: absolute;
+    margin: -48px  -3px;
+    border-radius: 50%;
+}
+.shortcut{
+    background-color: #dddada; 
+    height: 40px;
+    width: 40px; 
+    position: absolute;
+    margin: -48px  5px;
+    border-radius: 50%;
+}
+.shortcut p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
 
-
-
-
-
+/* hover effect */
+button:hover{
+    background-color: #bbb9b9;
+    cursor: pointer;
+    border-radius: 5%;
+}
+#microphone:hover{
+    cursor: pointer;
+}
+/* footer */
+#customization-button{
+  margin-top: 75px;
+ float: right;
+  min-width: 40px;
+  padding: 5px 25px;
+  border-radius:calc(0.5* 33px);
+   background-color: #dddada;
+   border: none;
+   font-family:'Times New Roman', Times, serif;
+   font-style: italic;
+   font-weight: 600;
+}
+.customize{
+    background: url(/image/edit.png);
+    height: 18px;
+    width: 18px;
+    background-size: contain;
+    position: absolute;
+    margin-left:-19px;
+    margin-top: -2px;
+}
 
 
 
